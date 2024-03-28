@@ -1,0 +1,102 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+h1 {
+    margin-bottom: 40%;
+}
+
+#rotulo-funcao {
+    text-align: center;
+    margin-top: 1px;
+
+}
+
+.rotuloRequisitante {
+    background-color: #3E838C !important;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1% 5% 1% 5%;
+    margin-left: 2%;
+    color: white;
+}
+
+.rotuloAdministrador {
+    background-color: #063940;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1% 5% 1% 5%;
+    margin-left: 2%;
+    color: white;
+}
+
+.rotuloColaborador {
+    text-align: center;
+    background-color: #8EBDB6;
+    border-radius: 10px;
+    padding: 1% 5% 1% 5%;
+    color: white;
+    margin-left: 2%;
+
+}
+
+img {
+    border-radius: 50%;
+    height: 103px;
+    width: 141px;
+
+}
+
+/* .img-header {
+    padding-left: 67px;
+    padding-top: 20px;
+    float: left;
+    margin-top: auto;
+} */
+
+/* main{
+    margin: 5% ;
+} 
+
+/* para mudar a cor dos botões */
+#btn1 {
+    background-color: #3E838C !important;
+    border-color: black;
+}
+
+
+#btn2 {
+    background-color: #063940;
+    border-color: black;
+}
+
+#btn3 {
+    background-color: #8EBDB6;
+    border-color: black;
+}
+
+#botaoAlinhamento {
+    margin-top: -65px !important;
+    margin-left: 40px !important;
+}
+
+.input-wrapper {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #DCDCDC;
+}
+
+.input-wrapper input {
+    background-color: transparent;
+    border: none;
+}
+
+.input-wrapper img {
+    width: 19px;
+    height: 19px;
+}

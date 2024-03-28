@@ -1,0 +1,20 @@
+fiz uma reestruturação das pastas para melhor gestão.
+
+Na pasta app contem as pastas(administrador, colaborador e requisitante) para que cada perfil tenha uma pasta própria para desenvolver suas aplicações.
+
+Na pasta database contem os arquivos relacionados ao banco de dados e sua conexão.
+
+Na pasta app contem as pastas(estilo,imagens e scripts) alem do arquivo home php e do index.
+
+
+O index possui apenas um header("Location:home.php"); por uma questão de arquitetura de servidor pois ao subir o projeto para um servidor a pasta public é obrigatória e o index é localizado automaticamente para carregar o conteúdo. 
+
+
+
+OBS: Encontrei alguns erros que não consegui entender, são esses abaixo:
+
+* sucesso.php - erro:  Undefined array key "mensagem" on line 2
+
+* editar_colaborador.php - erro: Undefined array key “id” on line 5
+
+* incluir_colaborador.php - erro: Undefined array key on line 3,4,5 e 6

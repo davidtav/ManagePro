@@ -1,0 +1,294 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+
+
+}
+
+#colab{
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #8EBDB6;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: #8EBDB6;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#adm{
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #063940;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: #063940;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+
+#requisitante{
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #3E838C;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: #3E838C;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* h1 do editar_colab */
+h1{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+form {
+    width: 800px;
+
+}
+
+fieldset {
+    border: 1px solid #1c8080;
+
+}
+
+#tabelaarray{
+    background-color: #1c8080;
+    color: white;
+}
+
+.menu_admin{
+    background-color: #063940;
+    height: 70px;
+    color: white;
+}
+.menu_admin a{
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    background: #F5F5F5;
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 22px;
+    float: left;
+    text-align: center;
+    cursor: pointer;    
+    text-decoration: none;
+    padding-top: 8px;
+}
+.menu_colab {
+    background-color: #8EBDB6;
+    height: 70px;
+    color: white;
+}
+
+.menu_colab a{
+    width: 150px;
+    height: 25px;
+    border-radius: 4px;
+    background: #F5F5F5;
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 22px;
+    float: left;
+    text-align: center;
+    cursor: pointer;    
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.menu_requisitante{
+    background-color: #3E838C;
+    height: 70px;
+    color: white;
+}
+.menu_requisitante a{
+    width: 150px;
+    height: 25px;
+    border-radius: 4px;
+    background: #F5F5F5;
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 22px;
+    float: left;
+    text-align: center;
+    cursor: pointer;    
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+a:hover{
+    background-color: rgb(238, 238, 186);
+    border-color:#FFCE00;
+}
+
+
+input[type=date],
+[type=email] {
+    font-family: 'Prompt', sans-serif;
+    color: black;
+    border-radius: 4px;
+    border-color: #063940;
+}
+
+input[type=submit] {
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #FFF;
+    background: #063940;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 800px;
+    height:250px;
+    border-radius: 2px;
+    border: 1px solid #063940;
+    margin-top: 15px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+}
+
+
+
+#logo {
+    border-radius: 50%;
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-top: -20px;
+    margin-left: 20px;
+
+}
+
+ #icon {
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+
+}
+
+.colaborador input[type=text], [type=email],[type=password]{
+    margin-top: 20px;
+    font-family: 'Prompt', sans-serif;
+    color: black;
+    font-size: 1.2em;
+    border-radius: 4px;
+    border-color: #063940;
+    width: 800px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.colaborador form{
+    margin-top: 20px;
+}
+
+
+
+#dashboardcolab table{
+    border-collapse: collapse;
+    width: 1200px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+ 
+}
+
+#dashboardcolab th{
+    background-color: #8EBDB6;
+    color: white;
+    border: 1px solid black;
+    padding-left: 10px;
+   padding-right: 10px;
+
+}
+
+#dashboardcolab tr, td{
+    border: 1px solid black;
+    text-align: center
+ 
+    
+ }
+
+ #dashboardadm table{
+    border-collapse: collapse;
+    width: 1200px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+ 
+}
+
+#dashboardadm th{
+    background-color: #063940;
+    color: white;
+    border: 1px solid black;
+    padding-left: 10px;
+   padding-right: 10px;
+
+}
+
+#dashboardadm tr, td{
+    border: 1px solid black;
+    text-align: center
+  }
+
+  #dashboardreq table{
+    border-collapse: collapse;
+    width: 1200px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+ 
+}
+
+#dashboardreq th{
+    background-color: #3E838C;
+    color: white;
+    border: 1px solid black;
+    padding-left: 10px;
+   padding-right: 10px;
+
+}
+
+#dashboardreq tr, td{
+    border: 1px solid black;
+    text-align: center
+   
+ }
